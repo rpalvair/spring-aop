@@ -7,4 +7,6 @@
     <bean id="afterMethodInterceptor" class="com.palvair.tuto.spring.aop.AfterMethodInterceptor" />
     <bean id="throwExceptionMethodInterceptor" class="com.palvair.tuto.spring.aop.ThrowExceptionInterceptor" />
     <bean id="aroundMethodInterceptor" class="com.palvair.tuto.spring.aop.AroundMethodInterceptor" />
+
+    <bean id="aspect" 	class="com.palvair.tuto.spring.aop.aspectj.Advice" 		factory-method="aspectOf" />
 </beans>
